@@ -1,0 +1,92 @@
+/* 1. Body font and background */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('bloomAloneclassbackground.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* 2. Container styles */
+.container {
+    background-color: #dc246e;
+    margin: 40px auto;
+    padding: 30px 25px 25px 25px;
+    max-width: 450px
+    border-radius: 15px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    background-color: transparent;
+}
+
+/* 3. Title Styling */
+h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Horizontal line */
+hr {
+    width: 60%;
+    margin: 0 auto 50px auto;
+    border: 1.5px solid #fff;
+    border-radius: 2px;
+}
+
+/* Input field styles */ 
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px 0;
+    border: none;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+/* Label styles */
+label {
+    color: rgba(255, 255, 255, 0.7); /* White with 50% opacity */
+    font-size: 1rem;
+}
+
+/* Placeholder */
+input::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+/* Anchor tag styles */
+.forgot-link {
+    color: black; /* Change the color to black */
+    text-decoration: none; /* Optional: Remove underline */
+    float: right; /* Shift the link to the right */
+    margin-top: 10px; /* Optional: Add spacing above */
+}
+
+/* Button styles */
+button {
+    width:100%;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #333
+}
